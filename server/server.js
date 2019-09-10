@@ -59,6 +59,7 @@ http.createServer((request, response) => {
                                             "elevation" : mountain.elevation,
                                             "effort": mountain.effort,
                                             "img": mountain.img,
+                                            "summitted": mountain.summitted,
                                             "desc": mountain.desc,
                                             "coords": {
                                                 "lat": mountain.lat,
@@ -108,9 +109,10 @@ http.createServer((request, response) => {
                                                         parsedData.mtnElevation, 
                                                         parsedData.mtnEffort, 
                                                         parsedData.mtnImage,
+                                                        parsedData.summitted,
                                                         parsedData.mtnDesc,
                                                         parsedData.mtnLat,
-                                                        parsedData.mtnLng
+                                                        parsedData.mtnLng 
                                                     );
 
                 promise.then((data) => {

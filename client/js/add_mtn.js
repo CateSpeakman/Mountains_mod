@@ -53,6 +53,7 @@ $(document).ready(function() {
             "mtnElevation": $('#mtnElevation').val(),
             "mtnEffort": $('#mtnEffort').val(),
             "mtnImage": $('#mtnImage').val(),
+            "summitted": $('#summitted').prop("checked"),
             "mtnDesc": $('#mtnDesc').val(),
             "mtnLat": $('#mtnLat').val(),
             "mtnLng": $('#mtnLng').val()
